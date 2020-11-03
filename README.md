@@ -53,8 +53,7 @@ export default {
 };
 ```
 
-<iframe src="https://player.vimeo.com/video/475247102" width="640" height="399" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/475247102">simple-vimeo-input</a> from <a href="https://vimeo.com/user126375013">Bradley Griffith</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+See: https://vimeo.com/475247102
 
 #### With Configuration
 
@@ -124,8 +123,8 @@ export default {
   }
 };
 ```
-<iframe src="https://player.vimeo.com/video/475247026" width="640" height="399" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/475247026">configured-vimeo-input</a> from <a href="https://vimeo.com/user126375013">Bradley Griffith</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+See: https://vimeo.com/475247026
 
 ## Additional Cases
 
@@ -134,14 +133,12 @@ export default {
 
 The user will be asked to reload the video any time they make changes to configurable fields. This is because configuration options are used during the _request_ to Vimeo for oEmbed data, and as such updated configurations require an updated request to Vimeo. The plugin will alert the user to this automatically.
 
-<iframe src="https://player.vimeo.com/video/475246939" width="640" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/475246939">updated-vimeo-input</a> from <a href="https://vimeo.com/user126375013">Bradley Griffith</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+See: https://vimeo.com/475246939
 
 #### Non-Existent Vimeo URLs / Fail Case
 Should the user ever attempt to load a non-existent or errant Vimeo URL, the plugin will alert the user automatically.
 
-<iframe src="https://player.vimeo.com/video/475247012" width="640" height="399" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/475247012">failed-vimeo-input</a> from <a href="https://vimeo.com/user126375013">Bradley Griffith</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+See: https://vimeo.com/475247012
 
 ## Configuration
 
