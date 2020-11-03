@@ -1,6 +1,6 @@
 # Sanity Plugin Goth Vimeo Input
 
-* ???? `sanity-plugin-vimeo-input` was taken so it's named `sanity-plugin-goth-vimeo-input`.
+> ???? `sanity-plugin-vimeo-input` was taken so it's named `sanity-plugin-goth-vimeo-input`.
 
 A Sanity Plugin for Inputting Vimeo Videos by their URL and Pre-Loading oEmbed Data.
 
