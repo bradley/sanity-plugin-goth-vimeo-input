@@ -20,7 +20,7 @@
   "scripts": {
     "build": "npm run build:clean && npm run build:dist",
     "build:clean": "rm -rf dist/",
-    "build:dist": "npx babel --config-file ./babel.config.js lib/ --out-dir dist"
+    "build:dist": "npx babel --config-file ./babel.config.js lib/ --out-dir dist --copy-files"
   },
   "dependencies": {
     "axios": "^0.20.0",

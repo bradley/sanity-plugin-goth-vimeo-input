@@ -5,8 +5,16 @@
   },
   "parts": [
     {
-      "name": "part:@sanity/base/schema",
-      "path": "base/schema"
+      "implements": "part:@sanity/base/schema-type",
+      "path": "base/schema/objects/vimeoOEmbedConfigData"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "base/schema/objects/vimeoOEmbedData"
+    },
+    {
+      "implements": "part:@sanity/base/schema-type",
+      "path": "base/schema/objects/vimeoVideo"
     }
   ]
 }

@@ -2,13 +2,6 @@ module.exports = function(api) {
   api.cache(true);
 
   const config = {
-    env: {
-      "production": {
-        "plugins": [
-          "transform-react-remove-prop-types"
-        ]
-      }
-    },
     plugins: [
       [
         "babel-plugin-module-resolver",
@@ -29,6 +22,7 @@ module.exports = function(api) {
         }
       ],
       "lodash",
+      "transform-react-remove-prop-types"
     ],
     presets: [
       [
