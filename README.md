@@ -1,5 +1,7 @@
 # Sanity Plugin Vimeo Input
 
+* ???? `sanity-plugin-vimeo-input` was taken so it's named `sanity-plugin-goth-vimeo-input`.
+
 A Sanity Plugin for Inputting Vimeo Videos by their URL and Pre-Loading oEmbed Data.
 
 Through this plugin, your users will simply be required to input a valid Vimeo video URL. The plugin will use the [Vimeo oEmbed API](https://developer.vimeo.com/api/oembed) to then verify the video and import the full oEmbed payload for the video, which includes the video's title, ID, iFrame embed code, and thumbnail URL.
@@ -13,7 +15,7 @@ Additionally, the plugin allows the developer to set both defaults and available
 While in your Sanity project directory, run the following command:
 
 ```
-sanity install vimeo-input
+sanity install goth-vimeo-input
 ```
 
 You can read more about Sanity Plugin usage in the [official guide](https://www.sanity.io/docs/plugins).
