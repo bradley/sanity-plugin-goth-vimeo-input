@@ -1,0 +1,27 @@
+@import "part:@sanity/base/theme/variables-style";
+
+.search {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.input {
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.button {
+  margin-left: var(--extra-small-padding);
+}
+
+.warningMessage {
+  margin-top: var(--small-padding);
+}
+
+.thumbnail {
+  display: block;
+  height: 100%;
+  vertical-align: bottom;
+  width: 100%;
+}

@@ -1,0 +1,12 @@
+{
+  "paths": {
+    "source": "./lib",
+    "compiled": "./dist"
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "base/schema"
+    }
+  ]
+}

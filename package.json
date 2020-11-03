@@ -1,0 +1,49 @@
+{
+  "name": "sanity-plugin-vimeo-input",
+  "description": "A Sanity Plugin for Inputting Vimeo Videos by their URL and Pre-Loading oEmbed Data.",
+  "version": "1.0.0",
+  "authors": [
+    "(bradley <bradley.j.griffith@gmail.com>)"
+  ],
+  "license": "MIT",
+  "main": "package.json",
+  "keywords": [
+    "sanity",
+    "sanity-plugin",
+    "vimeo",
+    "oEmbed"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bradley/sanity-plugin-vimeo-input.git"
+  },
+  "scripts": {
+    "build": "npm run build:clean && npm run build:dist",
+    "build:clean": "rm -rf dist/",
+    "build:dist": "npx babel --config-file ./babel.config.js lib/ --out-dir dist"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "lodash": "^4.17.15"
+  },
+  "peerDependencies": {
+    "@sanity/base": "^2.0.1",
+    "@sanity/components": "^2.0.1",
+    "@sanity/core": "^2.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-imports": "^2.0.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
