@@ -6,6 +6,8 @@ Through this plugin, your users will simply be required to input a valid Vimeo v
 
 Additionally, the plugin allows the developer to set both defaults and available configuration options for the user to further customize the player included in the oEmbed response (e.g.; setting the video to autoplay or to use custom player control colors).
 
+![Plugin Example](https://github.com/bradley/sanity-plugin-vimeo-input/blob/assets/images/simple-vimeo-input.gif)
+
 ## Install
 
 While in your Sanity project directory, run the following command:
