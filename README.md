@@ -1,4 +1,4 @@
-# Sanity Plugin Vimeo Input
+# Sanity Plugin Goth Vimeo Input
 
 * ???? `sanity-plugin-vimeo-input` was taken so it's named `sanity-plugin-goth-vimeo-input`.
 
