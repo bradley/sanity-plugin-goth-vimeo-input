@@ -21,7 +21,7 @@
 
 .thumbnail {
   display: block;
-  height: 100%;
+  height: auto;
   vertical-align: bottom;
   width: 100%;
 }
