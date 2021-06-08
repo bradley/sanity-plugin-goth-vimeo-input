@@ -82,16 +82,7 @@ export default {
         ],
         defaultFieldValues: {
           autopause: false,
-          // Autoplay will also prevent the graceful loading of the player with
-          // the blurred thumbnail. If you want autoplay but also to keep the
-          // graceful thumbnail you should likely use javascript to trigger play
-          // on load. Most libs for vimeo players, including the official
-          // player.js from Vimeo, which you simply wrap around the iframe we
-          // get back here, supports this.
           autoplay: true,
-          // Keep this false. We can enable this effectively using other
-          // options, and having it set to true prevents graceful loading of the
-          // player with the blurred thumbnail.
           background: false,
           byline: false,
           controls: false,
