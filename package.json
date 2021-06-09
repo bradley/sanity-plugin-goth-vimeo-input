@@ -1,7 +1,7 @@
 {
   "name": "sanity-plugin-goth-vimeo-input",
   "description": "A Sanity Plugin for Inputting Vimeo Videos by their URL and Pre-Loading oEmbed Data.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     "(bradley <bradley.j.griffith@gmail.com>)"
   ],
