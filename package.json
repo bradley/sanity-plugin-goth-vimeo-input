@@ -23,24 +23,24 @@
     "build:dist": "npx babel --config-file ./babel.config.js lib/ --out-dir dist --copy-files"
   },
   "dependencies": {
-    "axios": "^0.20.0",
-    "lodash": "^4.17.15"
+    "axios": "^1.3.4",
+    "lodash": "^4.17.21"
   },
   "peerDependencies": {
     "@sanity/base": "^2.0.1",
     "@sanity/components": "^2.0.1",
     "@sanity/core": "^2.0.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.11.1",
-    "@babel/node": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "babel-plugin-lodash": "^3.3.4",
-    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-module-resolver": "^5.0.0",
     "babel-plugin-transform-imports": "^2.0.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "babel-preset-es2015": "^6.24.1",
